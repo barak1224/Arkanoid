@@ -1,0 +1,59 @@
+# Level 1
+
+START_LEVEL
+level_name: V For Vendetta
+ball_velocities:300,450 0,450 60,450
+background:image(background_images/vendetta.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/vendetta_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:33
+START_BLOCKS
+-
+-
+---------------
+-rgr-------rgr-
+--rgr-----rgr--
+---rgr---rgr---
+----rgr-rgr----
+-----rgrgr-----
+------rgr------
+-------r-------
+---------------
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+
+START_LEVEL
+level_name: Face of Space
+ball_velocities:45,550
+background:image(background_images/space.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/space_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:105
+START_BLOCKS
+-
+-
+-
+-GGGGG---GGGGG-
+---------------
+-rrrrr---rrrrr--
+-y-G-y---y-G-y--
+-ggggg---ggggg--
+---------------
+--ppppppppppp--
+---c-------c---
+----rrrrrrr----
+
+END_BLOCKS
+END_LEVEL
